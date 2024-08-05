@@ -1,13 +1,21 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 
+.oi{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    background-color: aqua;
+    justify-content: center;
+}
 .DIV{
     display: flex;
     justify-content: center;
     background-color: red;
-    padding: 0.1rem;
+    width: 50vw;
 }
 
 
