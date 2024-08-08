@@ -6,38 +6,46 @@ body{
 header{
     display: flex;
     height: 20vh;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(159, 159, 159);
     width: 100vw;
     justify-content: center;
-    text-align: center;
+
     align-items: center;
 }
 
 .red{
     display: flex;
-    text-align: center;
-    background-color: red;
+    height: 50vh;
+    width: 100vw;
+    background-color:  red;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    
+    gap: 1rem;
 }
 
-.boxOriginal{
-    gap: 5rem;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-}
 .internalBox-1{
-    
-    justify-content: center;
+    text-align: center;
     background-color: green;
-    margin-top: 2rem;
-    width: 80%;
+    width: 90%;
+    
+  
 }
 
 .internalBox-2{
-    width: 80%;
-    justify-content: center;
+    text-align: center;
     background-color: green;
-    margin-bottom: 2rem;
+    width: 90%;
+    
+  
+}
+
+footer{
+    background-color: rgb(71, 71, 71);
+    width: 100vw;
+    height: 24vh;
+    padding-top: 4rem;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
 }
