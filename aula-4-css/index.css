@@ -1,0 +1,27 @@
+.caixaAzul{
+    background-color: blue;
+    width: 100vw;
+    height: 30vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+
+.rosa{
+    background-color: rgb(216, 66, 203);
+    display: flex;
+    
+    width: 80%;
+    height: 7vh;
+    
+    justify-content: center;
+}
+
+.vermelho{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
