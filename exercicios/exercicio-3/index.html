@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    
+    <div>
+            <form action="">
+              <fieldset>
+
+                <legend>Dados Pessoais:</legend>
+
+                <label for="name">Nome: </label>
+                <input type="text" name="" id="name">
+                <br>
+                <br>
+
+                <label for="endereco">Endereço: </label>
+                <input type="text" name="" id="endereco">
+                <br>
+                <br>
+                
+                <label for="city">Cidade: </label>
+                <input type="text" name="" id="city">
+                <br>
+                <br>
+                
+                <label for="Estado">Estado: </label>
+                <select name="estado" id="estado">
+                    <option value="SP">São Paulo</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </select>
+            </fieldset>
+        </form>
+
+        <form>
+            
+            <fieldset>
+                <legend>Dados profissionais</legend>
+        
+                
+                <p>Natureza do Cargo:</p>
+                <input type="radio" id="gerencia" name="cargo" value="gerencia">
+                <label for="gerencia">Gerência</label>
+        
+                <input type="radio" id="financeiro" name="cargo" value="financeiro">
+                <label for="financeiro">Financeiro</label>
+        
+                <input type="radio" id="recepcao" name="cargo" value="recepcao">
+                <label for="recepcao">Recepção</label>
+        
+                <input type="radio" id="administrativo" name="cargo" value="administrativo">
+                <label for="administrativo">Administrativo</label>
+        
+                <input type="radio" id="juridico" name="cargo" value="juridico">
+                <label for="juridico">Jurídico</label><br><br>
+        
+                <!-- Área de Interesse -->
+                <p>Área de interesse:</p>
+                <input type="checkbox" id="computacao" name="interesse" value="computacao">
+                <label for="computacao">Computação</label>
+        
+                <input type="checkbox" id="biologia" name="interesse" value="biologia">
+                <label for="biologia">Biologia</label>
+        
+                <input type="checkbox" id="meioAmbiente" name="interesse" value="meioAmbiente">
+                <label for="meioAmbiente">Meio Ambiente</label>
+        
+                <input type="checkbox" id="engenharia" name="interesse" value="engenharia">
+                <label for="engenharia">Engenharia</label>
+        
+                <input type="checkbox" id="historia" name="interesse" value="historia">
+                <label for="historia">História</label><br><br>
+        
+                
+                <label for="miniCurriculo">Mini-currículo:</label><br>
+                <textarea id="miniCurriculo" name="miniCurriculo" rows="4" cols="50"></textarea><br><br>
+            </fieldset>
+            <br>
+            <br>
+        
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+        
+    </div>
+</body>
+</html>

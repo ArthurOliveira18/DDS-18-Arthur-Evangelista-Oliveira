@@ -13,15 +13,13 @@
 .rosa{
     background-color: rgb(216, 66, 203);
     display: flex;
-    
     width: 80%;
     height: 7vh;
-    
     justify-content: center;
 }
 
 .vermelho{
     background-color: red;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
 }
