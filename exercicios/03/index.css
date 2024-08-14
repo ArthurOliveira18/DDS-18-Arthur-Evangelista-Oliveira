@@ -1,0 +1,24 @@
+#p01{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p02{
+    color: green;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p03{
+    font-family: "Comic Sans MS" , "Sans-Serif";
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+}
+
+body{
+    color: yellow;
+    font-weight: 900;
+    font-size: 14px;
+    
+}
