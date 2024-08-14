@@ -18,7 +18,11 @@
 
 body{
     color: yellow;
-    font-weight: 900;
     font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: medium;
+    
+    text-decoration: wavy ;
+    text-decoration-color: black;
     
 }
