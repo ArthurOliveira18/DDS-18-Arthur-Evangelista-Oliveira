@@ -7,3 +7,18 @@ body{
     background-color: green;
 }
 
+#luffy{
+    background-image: url(https://motionbgs.com/media/1953/monkey-d-luffy-straw-hat_312.gif);
+    width: 20vw;
+    height: 175px;
+    background-position: fixed;
+    
+}
+
+#arthur{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl-JgyD3gsKMZzONqBMYoQTLvQ0QWtSvdtZA&s);
+    width: 20vw;
+    height: 2000px;
+    
+    
+}
