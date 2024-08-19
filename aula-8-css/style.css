@@ -1,0 +1,59 @@
+body{
+    background-color: gray;
+    height: 600px;
+}
+
+#tudo{
+    background-color: orange;
+    padding: 5px;
+    display: inline-block
+}
+
+.quad{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#quad1{
+    background-color: red;
+    flex-shrink: calc(0);
+}
+
+
+#quad2{
+    background-color: yellow;
+    flex-grow: calc(0);
+}
+
+
+#quad3{
+    background-color: green;
+}
+
+#container{
+    background-color: black;
+    padding: 6px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#container2{
+    background-color: blanchedalmond;
+    padding: 5px;
+    height: 600px;
+    display: grid;
+    /* grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto; */
+    grid-template: auto auto/ auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
