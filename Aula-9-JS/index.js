@@ -14,3 +14,12 @@ console.log(numero)
 console.log(theBest)
 console.log(nulo)
 console.log(indefinido)
+
+
+
+let n1 = parseFloat(prompt("Digite o primeiro numero"))
+let n2 = parseFloat(prompt("Digite o segundo numero"))
+let resultado = n1 + n2
+
+alert("A soma dos dois é: " + resultado)
+console.log("A soma dos dois é: " + resultado)
