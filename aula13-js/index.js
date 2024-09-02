@@ -12,3 +12,8 @@ function logar(){
      alert('Usuário ou senha incorretos')
     }
  }
+
+
+ function cadastrar(){
+    
+ }
