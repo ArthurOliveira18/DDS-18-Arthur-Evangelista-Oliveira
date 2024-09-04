@@ -41,6 +41,21 @@ body{
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.486);
 }
 
+#anosAtual{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+    padding-left: 3rem ;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.486);
+}
+
 span{
     font-weight: bold;
     font-size:150px;
